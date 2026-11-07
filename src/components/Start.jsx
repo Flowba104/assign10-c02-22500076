@@ -40,8 +40,8 @@ const Start = () => {
           <NavLinks handleCustomQuiz={handleCustomQuiz} />
           <div className="row vh-100 align-items-center justify-content-center">
             <div className="col-12">
-              <h1 className="fw-bold m-4 display-5">Are you a Tech Quiz Champion?</h1>
-              <p className="lead mb-5">Choose your quiz type or create your own!</p>
+              <h1 className="fw-bold m-4 display-5">당신은 테크 퀴즈의 달인입니까?</h1>
+              <p className="lead mb-5">당신만의 퀴즈 타입을 만들고 본인의 퀴즈를 만들어보세요!</p>
 
               <div className="quiz-options mb-5 mx-5">
                 <div className="quiz-types-grid">
@@ -84,7 +84,7 @@ const Start = () => {
                   className="btn btn-outline-light btn-lg custom-quiz-btn"
                 >
                   <i className="bi bi-plus-circle me-2"></i>
-                  Create Custom Quiz
+                  나만의 퀴즈 만들기
                 </button>
               </div>
             </div>
