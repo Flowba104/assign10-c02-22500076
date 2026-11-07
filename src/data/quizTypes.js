@@ -89,12 +89,18 @@ const quizTypes = [
 		icon:
 			'https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/astro/astro-original.svg',
 	},
-	{
+		{
 		id: 'nextjs',
 		title: 'Next.js',
 		display: 'Next.js',
 		icon:
 			'https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/nextjs/nextjs-original.svg',
+	},
+	{
+		id: 'economics',
+		title: '2026 Economy',
+		display: '2026 Economy',
+		icon: '/internet.svg',
 	},
 ]
 
