@@ -1,0 +1,76 @@
+kind/questions:
+  match:
+    - 'public/data/*.json'
+    - '**/*-questions.json'
+  description: 'Relating to quiz content q/a.'
+
+kind/docker:
+  match:
+    - 'Dockerfile'
+  description: 'Relating to docker runtime.'
+  
+kind/javascript:
+  match:
+    - '**/*.jsx' 
+    - '**/*.js' 
+    - '**/*.mjs'
+    - '**/*.cjs' 
+  description: 'Changes Javascript files'
+
+kind/ci:
+  match:
+    - '**/*.yml'
+    - '**/*.yaml'
+    - 'Dockerfile'
+  description: 'Changes CI/CD files'
+
+kind/html:
+  match:
+    - '**/*.html'
+  description: 'Changes html files'
+
+kind/css:
+  match:
+    - '**/*.css'
+  description: 'Changes css files'
+
+bot/hamster:
+  match:
+    - 'automated'
+    - 'hamster'
+  description: 'Thats my hamster'
+
+kind/assets:
+  match:
+    - 'public/**/*'
+    - '**/assets/**/*'
+    - '**/*.svg'
+  description: 'Changes Static Assets'
+
+kind/configuration:
+  match:
+    - 'CODEOWNERS'
+    - '.gitignore'
+    - '**/*.json'
+    - 'treemap'
+    - 'eslint.config.js'
+  description: 'Changes dotfiles'
+
+kind/vite:
+  match:
+    - 'vite.config.js'
+    - 'vite.config.ts'
+  description: 'Change in vite configuration.' 
+
+kind/deno:
+  match:
+    - 'deno.json'
+  description: 'Deno configuration'
+
+kind/docs:
+  match:
+    - 'contributing.md'
+    - 'readme.md'
+    - 'license'
+    - '*/**.md'
+  description: 'Documentation'

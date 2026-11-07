@@ -1,0 +1,22 @@
+.contributing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+@media (max-width: 400px) {
+    .contributing-container {
+        padding: 10px;
+    }
+} 

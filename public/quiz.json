@@ -1,0 +1,105 @@
+{
+    "quizTitle": "Quiz",
+    "questions": [
+        {
+            "question": "What is the primary purpose of Docker?",
+            "choices": [
+                "To manage databases",
+                "To containerize applications",
+                "To build user interfaces",
+                "To write server-side scripts"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "Which command is used to start a Vite development server?",
+            "choices": [
+                "vite serve",
+                "vite start",
+                "vite",
+                "vite preview"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "What is pnpm primarily used for?",
+            "choices": [
+                "Package management",
+                "Database management",
+                "Container orchestration",
+                "CSS styling"
+            ],
+            "correctAnswer": 0 
+        },
+        {
+            "question": "Which of the following is used to style React components?",
+            "choices": [
+                "CSS Modules",
+                "Styled Components",
+                "Tailwind CSS",
+                "All of the above"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "Which of the following is a feature of JavaScript ES6?",
+            "choices": [
+                "Arrow functions",
+                "CSS Grid",
+                "SQL Queries",
+                "REST APIs"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "What is the command to build a Docker image?",
+            "choices": [
+                "docker build",
+                "docker run",
+                "docker create",
+                "docker start"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "Which of the following is a key feature of Vite?",
+            "choices": [
+                "Hot Module Replacement",
+                "Server-side rendering",
+                "Smart Module Caching",
+                "All of the above"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "What are the benefit of using pnpm over npm?",
+            "choices": [
+                "Faster installs",
+                "Similar Commands",
+                "Better management commands",
+                "All of the above"
+            ],
+            "correctAnswer": 3 
+        },
+        {
+            "question": "What is the purpose of React hooks?",
+            "choices": [
+                "To manage state and side effects in functional components",
+                "To style components",
+                "To fetch data from APIs",
+                "To handle routing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "Which of the following is NOT a JavaScript data type?",
+            "choices": [
+                "String",
+                "Vector",
+                "Number",
+                "Array"
+            ],
+            "correctAnswer": 1
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+hamster:
+  match:
+    - 'automated'
+    - 'hamster'
+    - 'hamster-bot'
+  description: 'Its my hamster.'
+
+feat:
+  match:
+    - 'feature'
+    - 'feat'
+    - 'src'
+  description: 'Feature or enhancement.'
+
+boss:
+  match:
+    - 'admin'
+    - 'boss'
+  description: 'Its me (boss).'
+
+fragrance:
+  match:
+    - 'her'
+    - 'fragrance'
+    - 'mehak'
+    - 'mahak'
+  description: 'Lead developer'
+  
+testing:
+  match:
+    - 'testing'
+    - 'wip'
+    - 'incomplete'
+    - 'local'
+  description: 'Testing for bugs or issues.'
+
+docs:
+  match:
+    - 'docs'
+    - 'readme'
+    - 'schema'
+    - 'documentation'
+  description: 'Documentation or readme stuff.'
