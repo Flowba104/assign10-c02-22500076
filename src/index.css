@@ -81,12 +81,12 @@ h6 {
   bottom: 0;
   background: linear-gradient(
     125deg,
-    #000000,
-    #1a1a2e,
-    #16213e,
-    #0f3460,
-    #1a1a2e,
-    #000000
+    #0f0c29,
+    #302b63,
+    #7b2d5e,
+    #c0392b,
+    #302b63,
+    #0f0c29
   );
   background-size: 300% 300%;
   animation: gradientBG 15s ease infinite;
